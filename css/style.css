@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background-site: #f2f3f5;
+}
+
+body{
+    min-height: 100vh;
+    height: auto;
+    color: var(--color);
+}
+
+.top-page{
+    height: 100vh;
+}
+.teste{
+    height: 100%;
+    content: "";
+    background-color: rgb(4, 6, 26);
+}
+
+
+.wave-container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+
+.wave-segment{
+    background: linear-gradient(100deg,rgb(4, 6, 26),
+    rgb(4, 6, 26, 800),
+    rgb(4, 6, 26, 400), rgb(4, 6, 26, 200),
+    rgb(4, 6, 26, 0));
+    width: 100%;
+}
+
+
+
+
+
+
