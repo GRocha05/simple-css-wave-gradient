@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 :root{
-    --background-site: #f2f3f5;
+    --gradient-color : 4, 6, 26;
 }
 
 body{
@@ -19,7 +19,7 @@ body{
 .teste{
     height: 100%;
     content: "";
-    background-color: rgb(4, 6, 26);
+    background-color: rgb(var(--gradient-color));
 }
 
 
@@ -31,10 +31,9 @@ body{
 
 
 .wave-segment{
-    background: linear-gradient(100deg,rgb(4, 6, 26),
-    rgb(4, 6, 26, 800),
-    rgb(4, 6, 26, 400), rgb(4, 6, 26, 200),
-    rgb(4, 6, 26, 0));
+    background: linear-gradient(100deg,rgb(var(--gradient-color)),
+    rgb(var(--gradient-color), 800), rgb(var(--gradient-color), 400),
+    rgb(var(--gradient-color), 200), rgb(var(--gradient-color), 0));
     width: 100%;
 }
 
