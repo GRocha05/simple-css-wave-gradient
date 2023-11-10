@@ -3,6 +3,22 @@ const wavelength = 50; // Adjust the wavelength of the wave
 const amplitude = 25; // Adjust the amplitude of the wave
 const frequency = 0.1; // Adjust the frequency of the wave
 
+/*
+High frequency has shorter wavelength
+
+      wavelength
+     |----------------|                                  _    
+|   /\                /\                /\               |
+|  /  \              /  \              /  \              | Amplitude
+| /    \            /    \            /    \             |
+|/      \          /      \          /      \            |
+|--------\--------/--------\--------/--------\---------- -
+|         \      /          \      /          \
+|          \    /            \    /            \
+|           \  /              \  /              \
+|            \/                \/                \
+*/ 
+
 function createWave() {
   const containerWidth = waveContainer.clientWidth;
   const totalDots = containerWidth;
